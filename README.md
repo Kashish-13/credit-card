@@ -44,10 +44,6 @@ streamlit run app.py
 🧠 Training & Model Saving Trained models and scalers are saved using:
 
 python
-
-import joblib
-joblib.dump(model, 'model_name.pkl')
-model = joblib.load('model_name.pkl')
 Deep learning model:
 python
 
@@ -70,16 +66,11 @@ cd CreditCardFraudDetection
 pip install -r requirements.txt
 📄 requirements.txt Typical packages (to be listed in your requirements.txt):
 
-nginx
 pandas
 numpy
 scikit-learn
-xgboost
 matplotlib
 seaborn
-imbalanced-learn
-tensorflow
-keras
 streamlit
 joblib
 Generate it with:
@@ -88,7 +79,7 @@ pip freeze > requirements.txt
 
 Random Forest and XGBoost performed robustly.
 
-Made with ❤ By Kunal
+Made with ❤ By KASHISH ARYA
 
 Deep learning gave strong recall but needs careful tuning.
 
