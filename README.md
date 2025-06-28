@@ -61,11 +61,6 @@ Focused on maximizing recall to minimize false negatives (missed frauds).
 
 📦 Installation
 
-git clone https://github.com/yourusername/CreditCardFraudDetection.git
-cd CreditCardFraudDetection
-pip install -r requirements.txt
-📄 requirements.txt Typical packages (to be listed in your requirements.txt):
-
 pandas
 numpy
 scikit-learn
